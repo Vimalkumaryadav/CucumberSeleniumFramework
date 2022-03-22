@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.test.runners.GenericRunner
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 7, Time elapsed: 200.612 s - in com.test.runners.GenericRunner

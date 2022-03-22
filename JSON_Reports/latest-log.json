@@ -1,0 +1,1226 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7975054600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.initiateTest()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Validating Registring Page",
+        "description": "",
+        "id": "a.register-page-feature;validating-registring-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 10144447400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.closeTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7200123800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigated to the application and to registration page",
+            "match": {
+              "location": "Login_Steps.i_navigated_to_the_application_and_to_registration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14273190600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I validate the fields in registration page",
+            "match": {
+              "location": "Registration_Steps.i_validate_the_fields_in_registration_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15039316800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter \"Mr\" , \"James\" , \"anderson\" , \"testtoolbot19@yopmail.com\" , \"Carpenter\" , \"The Carpenter Store\" , \"Welcome@123\" and \"Welcome@123\" and click on register",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mr",
+                  "offset": 9
+                },
+                {
+                  "val": "James",
+                  "offset": 16
+                },
+                {
+                  "val": "anderson",
+                  "offset": 26
+                },
+                {
+                  "val": "testtoolbot19@yopmail.com",
+                  "offset": 39
+                },
+                {
+                  "val": "Carpenter",
+                  "offset": 69
+                },
+                {
+                  "val": "The Carpenter Store",
+                  "offset": 83
+                },
+                {
+                  "val": "Welcome@123",
+                  "offset": 107
+                },
+                {
+                  "val": "Welcome@123",
+                  "offset": 125
+                }
+              ],
+              "location": "Registration_Steps.i_enter_and_and_click_on_register(String,String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31613598300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I navigate to email and enter \"testtoolbot19@yopmail.com\" and Verify the email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testtoolbot19@yopmail.com",
+                  "offset": 31
+                }
+              ],
+              "location": "Registration_Steps.i_navigate_to_email_and_enter_and_Verify_the_email(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1175171400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I again login into application with registrated user",
+            "match": {
+              "location": "Registration_Steps.i_again_login_into_application_with_registrated_user()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "A.Register page feature",
+    "description": "",
+    "id": "a.register-page-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/01Register_Page.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7247771800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.initiateTest()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Validating Login Page",
+        "description": "",
+        "id": "b.login-page-feature;validating-login-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 9267682000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.closeTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6235063600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "Login_Steps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 178864500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "forgot your password link should be displayed",
+            "match": {
+              "location": "Login_Steps.forgot_your_password_link_should_be_displayed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2051142200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "registration link should be displayed",
+            "match": {
+              "location": "Login_Steps.registration_link_should_be_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3270419600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters \"testtoolbot19@yopmail.com\" and \"Welcome@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testtoolbot19@yopmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Welcome@123",
+                  "offset": 45
+                }
+              ],
+              "location": "Login_Steps.user_enters_credentials(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5309926900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "application should display expected result based on \"valid\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 53
+                }
+              ],
+              "location": "Login_Steps.user_gets_the_title_of_the_page(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3723239000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.initiateTest()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Validating Login Page",
+        "description": "",
+        "id": "b.login-page-feature;validating-login-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 7314148000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.closeTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6426203100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "Login_Steps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 97632400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "forgot your password link should be displayed",
+            "match": {
+              "location": "Login_Steps.forgot_your_password_link_should_be_displayed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2051114500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "registration link should be displayed",
+            "match": {
+              "location": "Login_Steps.registration_link_should_be_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3263232300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters \"testtoolbot@yopmail.com\" and \"Welcome123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testtoolbot@yopmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Welcome123",
+                  "offset": 43
+                }
+              ],
+              "location": "Login_Steps.user_enters_credentials(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 627026500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "application should display expected result based on \"invalid\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "invalid",
+                  "offset": 53
+                }
+              ],
+              "location": "Login_Steps.user_gets_the_title_of_the_page(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "B.Login page feature",
+    "description": "",
+    "id": "b.login-page-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/02Login_Page.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10894554700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.initiateTest()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Validating Client Page",
+        "description": "",
+        "id": "c.client-page-feature;validating-client-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 9262497900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.closeTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6060110900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "Login_Steps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3305283700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I sign in with \"testtoolbot8@yopmail.com\" and \"Welcome@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testtoolbot8@yopmail.com",
+                  "offset": 16
+                },
+                {
+                  "val": "Welcome@123",
+                  "offset": 47
+                }
+              ],
+              "location": "Adding_Client_Steps.i_sign_in_with_something_and_something(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11068472100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to client tab and click on add client button",
+            "match": {
+              "location": "Adding_Client_Steps.i_navigate_to_client_tab_and_click_on_add_client_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 167903300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I validate the fields in the client details tab",
+            "match": {
+              "location": "Adding_Client_Steps.i_validate_the_fields_in_the_client_details_tab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4576608000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I validate email by passing already used \"asdf@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "asdf@gmail.com",
+                  "offset": 42
+                }
+              ],
+              "location": "Adding_Client_Steps.i_validate_email_by_passing_already_used_something(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4474374200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I validate email by passing invalid email \"Richard\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Richard",
+                  "offset": 43
+                }
+              ],
+              "location": "Adding_Client_Steps.i_validate_email_by_passing_invalid_email_something(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3139166600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter the \"Mr\" , \"Richard\" , \"Atkins\" , \"01823554741\" , \"07414582645\" , \"testtoolbot29@yopmail.com\" , \"Autoamted notes\" and click on sumbit button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mr",
+                  "offset": 13
+                },
+                {
+                  "val": "Richard",
+                  "offset": 20
+                },
+                {
+                  "val": "Atkins",
+                  "offset": 32
+                },
+                {
+                  "val": "01823554741",
+                  "offset": 43
+                },
+                {
+                  "val": "07414582645",
+                  "offset": 59
+                },
+                {
+                  "val": "testtoolbot29@yopmail.com",
+                  "offset": 75
+                },
+                {
+                  "val": "Autoamted notes",
+                  "offset": 105
+                }
+              ],
+              "location": "Adding_Client_Steps.i_enter_the_something_something_something_something_something_something_something_and_click_on_sumbit_button(String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4,
+              6,
+              7,
+              8,
+              9
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6316866500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I validate the fields in the client address tab",
+            "match": {
+              "location": "Adding_Client_Steps.i_validate_the_fields_in_the_client_address_tab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7029107400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on Add Address button and enter the \"167 Long View\" , \"Little Ham\" , \"Ham\" , \"Somerset\" , \"TA126GS\" , \"Automated notes\" and click on save changes button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "167 Long View",
+                  "offset": 45
+                },
+                {
+                  "val": "Little Ham",
+                  "offset": 63
+                },
+                {
+                  "val": "Ham",
+                  "offset": 78
+                },
+                {
+                  "val": "Somerset",
+                  "offset": 86
+                },
+                {
+                  "val": "TA126GS",
+                  "offset": 99
+                },
+                {
+                  "val": "Automated notes",
+                  "offset": 111
+                }
+              ],
+              "location": "Adding_Client_Steps.i_click_on_add_address_button_and_enter_the_something_something_something_something_something_something_and_click_on_save_changes_button(String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "C.Client page feature",
+    "description": "",
+    "id": "c.client-page-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/03Adding_Client_Page.feature"
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8101992200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.initiateTest()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Validating Labour Page",
+        "description": "",
+        "id": "d.labour-page-feature;validating-labour-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 8795005300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.closeTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5147680700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on login page",
+            "match": {
+              "location": "Login_Steps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3647583200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I sign in with \"testtoolbot19@yopmail.com\" and \"Welcome@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testtoolbot19@yopmail.com",
+                  "offset": 16
+                },
+                {
+                  "val": "Welcome@123",
+                  "offset": 48
+                }
+              ],
+              "location": "Adding_Client_Steps.i_sign_in_with_something_and_something(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15816679800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I validate the all fields in the Labour page",
+            "match": {
+              "location": "Add_Labour_Steps.i_validate_the_all_fields_in_the_labour_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15426934500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I navigate to labour and enter the \"15\" , \"10\" , \"80\" , \"20\" , \"15\" , \"150\" , \"200\" , \"250\" and click on save button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15",
+                  "offset": 36
+                },
+                {
+                  "val": "10",
+                  "offset": 43
+                },
+                {
+                  "val": "80",
+                  "offset": 50
+                },
+                {
+                  "val": "20",
+                  "offset": 57
+                },
+                {
+                  "val": "15",
+                  "offset": 64
+                },
+                {
+                  "val": "150",
+                  "offset": 71
+                },
+                {
+                  "val": "200",
+                  "offset": 79
+                },
+                {
+                  "val": "250",
+                  "offset": 87
+                }
+              ],
+              "location": "Add_Labour_Steps.i_navigate_to_labour_and_enter_the_something_something_something_something_something_something_something_something_and_click_on_save_button(String,String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "D.Labour page feature",
+    "description": "",
+    "id": "d.labour-page-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/04Labour_Page.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5812671400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.initiateTest()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Validating Certificate Page",
+        "description": "",
+        "id": "e.certificate-page-feature;validating-certificate-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 9120532100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.closeTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6889536700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "Login_Steps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3459920800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I sign in with \"testtoolbot19@yopmail.com\" and \"Welcome@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testtoolbot19@yopmail.com",
+                  "offset": 16
+                },
+                {
+                  "val": "Welcome@123",
+                  "offset": 48
+                }
+              ],
+              "location": "Adding_Client_Steps.i_sign_in_with_something_and_something(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10269434900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I validate the fields in the certificate page",
+            "match": {
+              "location": "Certificate_Steps.i_validate_the_fields_in_the_certificate_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6486412800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I Add Certificate \"Level 2357 NVQ\" , \"48.50\" , \"58.50\" and click on save certificate button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Level 2357 NVQ",
+                  "offset": 19
+                },
+                {
+                  "val": "48.50",
+                  "offset": 38
+                },
+                {
+                  "val": "58.50",
+                  "offset": 48
+                }
+              ],
+              "location": "Certificate_Steps.i_add_certificate_something_something_something_and_click_on_save_certificate_button(String,String,String)"
+            },
+            "matchedColumns": [
+              3,
+              4,
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16746779100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I Add duplicate Certificate \"Level 2357 NVQ\" , \"48.50\" , \"58.50\" and click on save certificate button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Level 2357 NVQ",
+                  "offset": 29
+                },
+                {
+                  "val": "48.50",
+                  "offset": 48
+                },
+                {
+                  "val": "58.50",
+                  "offset": 58
+                }
+              ],
+              "location": "Certificate_Steps.i_add_duplicate_certificate_something_something_something_and_click_on_save_certificate_button(String,String,String)"
+            },
+            "matchedColumns": [
+              3,
+              4,
+              5
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "E.Certificate page feature",
+    "description": "",
+    "id": "e.certificate-page-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/05Certificate_Page.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4129141400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.initiateTest()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Materials Page",
+        "description": "",
+        "id": "f.materials-page-feature;materials-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 8915111900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.closeTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5809824600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "Login_Steps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3287546500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I sign in with \"testtoolbot19@yopmail.com\" and \"Welcome@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testtoolbot19@yopmail.com",
+                  "offset": 16
+                },
+                {
+                  "val": "Welcome@123",
+                  "offset": 48
+                }
+              ],
+              "location": "Adding_Client_Steps.i_sign_in_with_something_and_something(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40865322600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I validate the fields in Category page",
+            "match": {
+              "location": "Materials_Steps.i_validate_the_fields_in_category_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38912054700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I navigate to category page and Add \"Electrical\" , \"Electrical\" , \"Accessories\" , \"ToolStation\" and click on save button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Electrical",
+                  "offset": 37
+                },
+                {
+                  "val": "Electrical",
+                  "offset": 52
+                },
+                {
+                  "val": "Accessories",
+                  "offset": 67
+                },
+                {
+                  "val": "ToolStation",
+                  "offset": 83
+                }
+              ],
+              "location": "Materials_Steps.i_navigate_to_category_page_and_add_something_something_something_something_and_click_on_save_button(String,String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4,
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13550265900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I validate the fields in Add Product",
+            "match": {
+              "location": "Materials_Steps.i_validate_the_fields_in_add_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18988478700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I add product and select \"Electrical\" , \"Electrical\" , \"Accessories\" , \"ToolStation\" and \"5555\" , \"58.29\" , \"68.29\" , \"25\" , \"https://www.toolstation.com/axiom-metal-17th-edition-amendment-3-high-integrity-dual-rcd-10-mcbs-consumer-unit/p82853\" , \"Axiom Metal 17th Edition Amendment 3 High Integrity Dual RCD + 10 MCBs Consumer Unit 12 Way\" and click on save button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Electrical",
+                  "offset": 26
+                },
+                {
+                  "val": "Electrical",
+                  "offset": 41
+                },
+                {
+                  "val": "Accessories",
+                  "offset": 56
+                },
+                {
+                  "val": "ToolStation",
+                  "offset": 72
+                },
+                {
+                  "val": "5555",
+                  "offset": 90
+                },
+                {
+                  "val": "58.29",
+                  "offset": 99
+                },
+                {
+                  "val": "68.29",
+                  "offset": 109
+                },
+                {
+                  "val": "25",
+                  "offset": 119
+                },
+                {
+                  "val": "https://www.toolstation.com/axiom-metal-17th-edition-amendment-3-high-integrity-dual-rcd-10-mcbs-consumer-unit/p82853",
+                  "offset": 126
+                },
+                {
+                  "val": "Axiom Metal 17th Edition Amendment 3 High Integrity Dual RCD + 10 MCBs Consumer Unit 12 Way",
+                  "offset": 248
+                }
+              ],
+              "location": "Materials_Steps.i_add_product_and_select_something_something_something_something_and_something_something_something_something_something_something_and_click_on_save_button(String,String,String,String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27471099200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I add duplicate product and select \"Electrical\" , \"Electrical\" , \"Accessories\" , \"ToolStation\" and \"5555\" , \"58.29\" , \"68.29\" , \"25\" , \"https://www.toolstation.com/axiom-metal-17th-edition-amendment-3-high-integrity-dual-rcd-10-mcbs-consumer-unit/p82853\" , \"Axiom Metal 17th Edition Amendment 3 High Integrity Dual RCD + 10 MCBs Consumer Unit 12 Way\" and click on save button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Electrical",
+                  "offset": 36
+                },
+                {
+                  "val": "Electrical",
+                  "offset": 51
+                },
+                {
+                  "val": "Accessories",
+                  "offset": 66
+                },
+                {
+                  "val": "ToolStation",
+                  "offset": 82
+                },
+                {
+                  "val": "5555",
+                  "offset": 100
+                },
+                {
+                  "val": "58.29",
+                  "offset": 109
+                },
+                {
+                  "val": "68.29",
+                  "offset": 119
+                },
+                {
+                  "val": "25",
+                  "offset": 129
+                },
+                {
+                  "val": "https://www.toolstation.com/axiom-metal-17th-edition-amendment-3-high-integrity-dual-rcd-10-mcbs-consumer-unit/p82853",
+                  "offset": 136
+                },
+                {
+                  "val": "Axiom Metal 17th Edition Amendment 3 High Integrity Dual RCD + 10 MCBs Consumer Unit 12 Way",
+                  "offset": 258
+                }
+              ],
+              "location": "Materials_Steps.i_add_duplicate_product_and_select_something_something_something_something_and_something_something_something_something_something_something_and_click_on_save_button(String,String,String,String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "F.Materials page feature",
+    "description": "",
+    "id": "f.materials-page-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/06Materials_Page.feature"
+  }
+]
